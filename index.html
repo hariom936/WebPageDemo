@@ -19,36 +19,28 @@
         color: white;
         margin: 0px;
         padding: 0px;
+        background: url('img/gym.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
       
     }
     
-	.background-image {
-		background-image: url('img/gym.jpg');
-        position: fixed;
-		left: 0;
-		right: 0;
-		z-index: 1;
-		display: block;
-		width: 100%;
-		height: 100%;
-		-webkit-filter: blur(5px);
-		-moz-filter: blur(5px);
-		-o-filter: blur(5px);
-		-ms-filter: blur(5px);
-		filter: blur(5px);
-		z-index: -1;
-	}
 
     .left {
         display: inline-block;
+        /* border: 2px solid red; */
         position: absolute;
         left: 10px;
         top: 0px;
         background-position: no-repeat;
+        
+        
     }
 
     .left img {
         width: 136px;
+      
     }
 
     .left div {
@@ -118,7 +110,6 @@
         padding: 75px;
         width: 33%;
         border-radius: 28px;
-		z-index: 4;
     }
 
     .form-group input {
@@ -145,8 +136,7 @@
 </style>
 
 <body>
-    <div class="background-image">
-	</div>
+    
     <header class="header">
         <!-- Left box for logo -->
         <div class="left">
